@@ -1,0 +1,129 @@
+!SESSION 2022-10-05 08:40:33.588 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-05 08:40:40.638
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-05 08:40:40.730
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-05 08:40:43.774
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 08:48:14.148
+!MESSAGE Indexed 'bai1' (17 sources, 78 headers) in 4.94 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 09:03:20.991
+!MESSAGE Indexed 'bai2' (17 sources, 78 headers) in 1.79 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 10:22:28.592
+!MESSAGE Indexed 'bai3' (17 sources, 78 headers) in 1.55 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 14:16:50.299
+!MESSAGE Indexed 'bai4' (17 sources, 78 headers) in 1.97 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 15:35:06.450
+!MESSAGE Indexed 'bai6' (17 sources, 78 headers) in 1.98 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 16:05:47.201
+!MESSAGE Indexed 'bai7' (17 sources, 78 headers) in 1.66 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 16:13:25.757
+!MESSAGE Indexed 'bai8' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 16:13:29.303
+!MESSAGE Indexed 'bai8' (17 sources, 78 headers) in 1.8 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2022-10-05 16:28:18.147
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element main.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-10-05 16:28:18.154
+!MESSAGE Element main.c does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 16:35:43.456
+!MESSAGE Indexed 'bai9' (17 sources, 78 headers) in 1.74 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 16:57:57.760
+!MESSAGE Indexed 'bai10' (17 sources, 78 headers) in 1.64 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 17:31:56.355
+!MESSAGE Indexed 'bai5' (17 sources, 78 headers) in 1.6 sec: 3,631 declarations; 13,033 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2022-10-06 07:16:53.448 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-06 07:17:20.925
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-06 07:17:21.036
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-06 07:17:44.377
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-10-19 21:17:16.795 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-19 21:17:30.003
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-19 21:17:30.070
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-19 21:17:42.949
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-10-28 09:59:23.204 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-28 09:59:29.287
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-28 09:59:29.389
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-28 09:59:40.925
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-10-28 10:02:41.334 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-28 10:02:47.711
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-28 10:02:47.793
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-28 10:02:57.453
+!MESSAGE Started RMI Server, listening on port 41337

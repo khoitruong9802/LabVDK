@@ -1,0 +1,20 @@
+20:33:11 **** Incremental Build of configuration Debug for project bai5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "bai5.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\STMcode\Lab1\bai5\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bai5.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bai5.elf
+ 
+arm-none-eabi-size   bai5.elf 
+arm-none-eabi-objdump -h -S  bai5.elf  > "bai5.list"
+arm-none-eabi-objcopy  -O ihex  bai5.elf  "bai5.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5436	     20	   1572	   7028	   1b74	bai5.elf
+Finished building: default.size.stdout
+ 
+Finished building: bai5.hex
+ 
+Finished building: bai5.list
+ 
+
+20:33:12 Build Finished. 0 errors, 0 warnings. (took 542ms)
+

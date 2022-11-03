@@ -1,0 +1,39 @@
+/*
+ * button.c
+ *
+ *  Created on: Nov 2, 2022
+ *      Author: DELL
+ */
+
+#include "button.h"
+
+int KeyReg0 = NORMAL_STATE;
+int KeyReg1 = NORMAL_STATE;
+int KeyReg2 = NORMAL_STATE;
+
+int KeyReg3 = NORMAL_STATE;
+
+int TimerForKeyPress = RESET_TIMER_FOR_KEY_PRESS;
+
+void getKeyInput() {
+	KeyReg0 = KeyReg1;
+	KeyReg1 = KeyReg2;
+	KeyReg2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4);
+	if (KeyReg0 == KeyReg1 && KeyReg1 == KeyReg2) {
+		if (KeyReg3 != KeyReg2) {
+			KeyReg3 = KeyReg2;
+			if (KeyReg2 == PRESSED_STATE) {
+				//TODO
+				HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+				TimerForKeyPress = RESET_TIMER_FOR_KEY_PRESS;
+			}
+		} else {
+			TimerForKeyPress--;
+			if (TimerForKeyPress <= 0) {
+				//TODO
+				HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_6);
+				TimerForKeyPress = RESET_TIMER_FOR_KEY_PRESS;
+			}
+		}
+	}
+}
