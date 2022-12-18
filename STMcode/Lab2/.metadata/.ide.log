@@ -5711,3 +5711,10 @@ Caused by: java.security.cert.CertificateException: No subject alternative DNS n
 2022-10-28 09:59:08,660 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2022-10-28 09:59:08,661 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
 2022-10-28 09:59:08,663 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-11-16 08:19:16,966 [INFO] Activator:177 - 
+
+
+2022-11-16 08:19:16,969 [INFO] Activator:178 - !SESSION log4j initialized
+2022-11-16 08:19:51,199 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-11-16 08:19:51,200 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-11-16 08:19:51,203 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

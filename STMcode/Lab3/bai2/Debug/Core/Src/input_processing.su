@@ -1,0 +1,5 @@
+../Core/Src/input_processing.c:14:6:set_traffic1	24	static
+../Core/Src/input_processing.c:20:6:set_traffic2	24	static
+../Core/Src/input_processing.c:31:6:fsm_for_input_processing	8	static
+../Core/Src/input_processing.c:112:6:display_traffic_light	8	static
+../Core/Src/input_processing.c:158:6:fsm_mode	8	static

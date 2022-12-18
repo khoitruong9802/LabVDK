@@ -1,0 +1,2 @@
+../Core/Src/seven_seg.c:12:6:display_7SEG	16	static
+../Core/Src/seven_seg.c:16:6:update_7SEG	16	static

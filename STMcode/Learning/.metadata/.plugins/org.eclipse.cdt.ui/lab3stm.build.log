@@ -1,0 +1,10 @@
+14:22:51 **** Incremental Build of configuration Debug for project lab3stm ****
+make -j8 all 
+arm-none-eabi-gcc -o "lab3stm.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\DELL\OneDrive\Máy tính\alo\LAB3_MCU-main\STM32\lab3stm\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab3stm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+e:\khoi\softwarebk\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\bin\ld.exe: cannot open linker script file C:\Users\DELL\OneDrive\M??y t??nh\alo\LAB3_MCU-main\STM32\lab3stm\STM32F103C6UX_FLASH.ld: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:67: lab3stm.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:22:51 Build Failed. 2 errors, 0 warnings. (took 301ms)
+

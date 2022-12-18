@@ -1,0 +1,30 @@
+!SESSION 2022-12-01 16:00:36.281 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\Midterm\MCU-Midterm-ex1\midterm
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-01 16:00:43.525
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-01 16:00:43.617
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\Midterm\MCU-Midterm-ex1\midterm\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-01 16:00:47.093
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-07 10:05:45.879 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-07 10:05:59.056
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-07 10:05:59.130
+!MESSAGE Log4j initialized with config file E:\KHOI\DATA\MonhocBK\221\Vixulividieukhien\Midterm\MCU-Midterm-ex1\midterm\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-07 10:06:03.461
+!MESSAGE Started RMI Server, listening on port 41337
